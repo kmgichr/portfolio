@@ -1,0 +1,152 @@
+html, body {
+  font-family: system-ui, "Noto Sans JP", Arial, sans-serif;
+  font-size: 16px;
+  color: saddlebrown;
+  background-color: floralwhite;
+  margin: 0;
+}
+
+.container {
+  max-width: 920px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
+
+.ib {
+  display: inline-block;
+}
+
+.site-header {
+  padding: 24px 16px;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.30)),
+    url("images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.brand {
+  margin: 0 8px 8px;
+  text-align: center;
+}
+
+.site-nav {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  background-color: linen;
+  padding: 48px 16px;
+}
+
+.lead {
+  line-height: 1.8;
+}
+
+.recommendation {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.recommendation-content {
+  background-color: seashell;
+  border: 1px solid tan;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.recommendation-title {
+  margin: 0 0 8px;
+  color: chocolate;
+}
+
+.tags {
+  margin-top: 8px;
+}
+
+.tag {
+  background-color: wheat;
+  border: 1px solid burlywood;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-right: 6px;
+  color: saddlebrown;
+}
+
+.section-title {
+  color: sienna;
+  font-size: 20px;
+  margin: 24px 0 12px;
+  text-align: center;
+}
+
+.picks {
+  text-align: center;
+}
+
+.card {
+  width: 200px;
+  vertical-align: top;
+  background-color: seashell;
+  padding: 12px;
+  margin: 8px;
+  text-align: left;
+}
+
+.thumb {
+  width: 100%;
+  background-color: wheat;
+  color: saddlebrown;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  color: chocolate;
+  margin: 0 0 6px;
+}
+
+.card-text {
+  line-height: 1.7;
+  margin: 0;
+}
+
+.site-footer {
+  background-color: linen;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.site-footer-small {
+  color: peru;
+  margin: 0;
+}
